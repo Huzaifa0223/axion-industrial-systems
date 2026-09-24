@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B4BFF" />
+      <stop offset="100%" stop-color="#22D3FF" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" x="6" y="6" rx="10" fill="#151838" stroke="#23274A" stroke-width="1.5"/>
+  <path d="M30 14 L46 46 L37 46 L30 32 L23 46 L14 46 Z" fill="url(#gradDark)" />
+  <circle cx="30" cy="24" r="3.5" fill="#22D3FF" />
+  <text x="66" y="38" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="24" fill="#EEF0FA" letter-spacing="-0.5">AXION</text>
+  <text x="146" y="38" font-family="Inter, sans-serif" font-weight="500" font-size="11" fill="#9AA0BF" letter-spacing="2">INDUSTRIAL</text>
+</svg>

@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #FFFFFF;
+    --surface: #F5F6FA;
+    --surface-raised: #FFFFFF;
+    --border: #E3E5EE;
+    --text: #1A1C2B;
+    --text-muted: #5B6075;
+    --primary: #1E0F8C;
+    --primary-hover: #2A18B0;
+    --accent: #00C2FF;
+    --accent-glow: rgba(0, 194, 255, 0.35);
+    --success: #16A34A;
+    --danger: #DC2626;
+
+    --font-display: var(--font-space-grotesk), system-ui, -apple-system, sans-serif;
+    --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
+    --font-mono: var(--font-jetbrains-mono), monospace;
+  }
+
+  [data-theme="dark"], :root.dark {
+    --bg: #070814;
+    --surface: #0E1024;
+    --surface-raised: #151838;
+    --border: #23274A;
+    --text: #EEF0FA;
+    --text-muted: #9AA0BF;
+    --primary: #5B4BFF;
+    --primary-hover: #7466FF;
+    --accent: #22D3FF;
+    --accent-glow: rgba(34, 211, 255, 0.4);
+    --success: #22C55E;
+    --danger: #F87171;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  code, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+/* Glassmorphism utility */
+.glass-header {
+  background: color-mix(in srgb, var(--surface) 75%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.glass-card {
+  background: color-mix(in srgb, var(--surface) 65%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+/* Glow effects */
+.glow-accent {
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+
+.glow-card {
+  box-shadow: 0 1px 2px rgba(10,12,40,.06), 0 8px 24px rgba(10,12,40,.08);
+}
+
+.glow-card:hover {
+  box-shadow: 0 2px 4px rgba(10,12,40,.08), 0 24px 48px rgba(10,12,40,.16);
+}
+
+/* Marquee continuous scroll */
+@keyframes marquee-scroll {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-scroll-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 40s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-reverse 50s linear infinite;
+}
+
+.animate-marquee:hover, .animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Gradient text sweep */
+@keyframes gradient-sweep {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-gradient-sweep {
+  background: linear-gradient(90deg, var(--primary), var(--accent), var(--primary));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-sweep 4s ease infinite;
+}
+
+/* Reduced motion adjustments */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-marquee, .animate-marquee-reverse {
+    animation: none !important;
+    transform: none !important;
+    flex-wrap: wrap !important;
+  }
+}
