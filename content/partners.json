@@ -1,0 +1,21 @@
+{
+  "note": "Use placeholder logos in the demo. Only show real manufacturer logos once you hold a distributor/partner agreement that allows it.",
+  "partners": [
+    { "name": "Partner One", "logo": "/partners/partner-1.svg", "url": "#" },
+    { "name": "Partner Two", "logo": "/partners/partner-2.svg", "url": "#" },
+    { "name": "Partner Three", "logo": "/partners/partner-3.svg", "url": "#" },
+    { "name": "Partner Four", "logo": "/partners/partner-4.svg", "url": "#" },
+    { "name": "Partner Five", "logo": "/partners/partner-5.svg", "url": "#" },
+    { "name": "Partner Six", "logo": "/partners/partner-6.svg", "url": "#" }
+  ],
+  "customers": [
+    { "name": "Customer One", "logo": "/customers/customer-1.svg" },
+    { "name": "Customer Two", "logo": "/customers/customer-2.svg" },
+    { "name": "Customer Three", "logo": "/customers/customer-3.svg" },
+    { "name": "Customer Four", "logo": "/customers/customer-4.svg" },
+    { "name": "Customer Five", "logo": "/customers/customer-5.svg" },
+    { "name": "Customer Six", "logo": "/customers/customer-6.svg" },
+    { "name": "Customer Seven", "logo": "/customers/customer-7.svg" },
+    { "name": "Customer Eight", "logo": "/customers/customer-8.svg" }
+  ]
+}

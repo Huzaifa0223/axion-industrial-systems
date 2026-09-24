@@ -1,0 +1,12 @@
+{
+  "customers": [
+    { "name": "Customer One", "logo": "/customers/customer-1.svg" },
+    { "name": "Customer Two", "logo": "/customers/customer-2.svg" },
+    { "name": "Customer Three", "logo": "/customers/customer-3.svg" },
+    { "name": "Customer Four", "logo": "/customers/customer-4.svg" },
+    { "name": "Customer Five", "logo": "/customers/customer-5.svg" },
+    { "name": "Customer Six", "logo": "/customers/customer-6.svg" },
+    { "name": "Customer Seven", "logo": "/customers/customer-7.svg" },
+    { "name": "Customer Eight", "logo": "/customers/customer-8.svg" }
+  ]
+}

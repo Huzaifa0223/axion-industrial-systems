@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "slug": "automation-systems",
+      "title": "Automation Systems",
+      "icon": "cpu",
+      "image": "/products/automation.jpg",
+      "summary": "PLCs, HMIs, industrial PCs and SCADA platforms for every scale of plant.",
+      "items": [
+        { "name": "Modular PLC Series", "specs": ["Up to 4096 I/O", "EtherNet/IP & PROFINET", "Redundancy option"], "datasheet": null },
+        { "name": "Touch HMI Panels", "specs": ["7–21 inch", "IP65 front", "Web visualisation"], "datasheet": null },
+        { "name": "Industrial PC", "specs": ["Fanless", "−20 to 60 °C", "DIN-rail or panel mount"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "motion-drives",
+      "title": "Motion & Drives",
+      "icon": "gauge",
+      "image": "/products/motion.jpg",
+      "summary": "Servo drives and motors, VFDs and motion controllers.",
+      "items": [
+        { "name": "Servo Drive & Motor Kit", "specs": ["50 W – 15 kW", "Absolute encoder", "STO safety"], "datasheet": null },
+        { "name": "General-Purpose VFD", "specs": ["0.4 – 450 kW", "Built-in PID", "Modbus RTU"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "robotics",
+      "title": "Robotics",
+      "icon": "bot",
+      "image": "/products/robotics.jpg",
+      "summary": "Articulated, SCARA, delta and collaborative robots.",
+      "items": [
+        { "name": "6-Axis Articulated Robot", "specs": ["Payload 7–210 kg", "Reach up to 3 m"], "datasheet": null },
+        { "name": "Collaborative Robot", "specs": ["Payload 3–16 kg", "Force-limited", "Hand-guided teaching"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "safety",
+      "title": "Safety",
+      "icon": "shield-check",
+      "image": "/products/safety.jpg",
+      "summary": "Safety controllers, light curtains, interlocks and relays.",
+      "items": [
+        { "name": "Safety Light Curtain", "specs": ["Type 4", "14/30 mm resolution"], "datasheet": null },
+        { "name": "Programmable Safety Controller", "specs": ["SIL 3 / PL e", "Expandable I/O"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "sensing",
+      "title": "Sensing",
+      "icon": "radar",
+      "image": "/products/sensing.jpg",
+      "summary": "Photoelectric, proximity, ultrasonic and process sensors.",
+      "items": [
+        { "name": "Photoelectric Sensors", "specs": ["Diffuse / retro / through-beam", "IO-Link"], "datasheet": null },
+        { "name": "Inductive Proximity Sensors", "specs": ["M8–M30", "Long-range variants"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "quality-inspection",
+      "title": "Quality Control & Inspection",
+      "icon": "scan-eye",
+      "image": "/products/vision.jpg",
+      "summary": "Smart cameras, vision controllers and code readers.",
+      "items": [
+        { "name": "Smart Camera", "specs": ["Up to 12 MP", "On-board AI inspection"], "datasheet": null },
+        { "name": "Fixed-Mount Code Reader", "specs": ["1D/2D/DPM codes", "Auto-focus"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "control-components",
+      "title": "Control Components",
+      "icon": "sliders-horizontal",
+      "image": "/products/control.jpg",
+      "summary": "Relays, timers, temperature controllers and power supplies.",
+      "items": [
+        { "name": "DIN-Rail Power Supplies", "specs": ["24 VDC", "15–960 W"], "datasheet": null },
+        { "name": "Temperature Controllers", "specs": ["PID auto-tune", "1/16–1/4 DIN"], "datasheet": null }
+      ]
+    },
+    {
+      "slug": "switching-components",
+      "title": "Switching Components",
+      "icon": "toggle-right",
+      "image": "/products/switching.jpg",
+      "summary": "Contactors, circuit breakers, push buttons and pilot lights.",
+      "items": [
+        { "name": "Contactors & Overloads", "specs": ["AC-3 up to 800 A"], "datasheet": null },
+        { "name": "Push Buttons & Pilot Lights", "specs": ["22 mm", "IP66"], "datasheet": null }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "global": {
+    "respectReducedMotion": true,
+    "reducedMotionFallback": "Disable smooth scroll, 3D canvas, parallax and marquee; keep instant opacity fades only.",
+    "smoothScroll": { "library": "lenis", "duration": 1.1, "easing": "easeOutExpo" },
+    "easings": {
+      "outExpo": [0.16, 1, 0.3, 1],
+      "outQuart": [0.25, 1, 0.5, 1],
+      "inOut": [0.65, 0, 0.35, 1]
+    },
+    "durations": { "fast": 0.2, "base": 0.5, "slow": 0.9, "hero": 1.4 },
+    "pageTransition": { "type": "fade-slide", "y": 16, "duration": 0.45 }
+  },
+  "preloader": {
+    "enabled": true,
+    "maxMs": 1400,
+    "sequence": ["logo mark strokes draw in (SVG stroke-dashoffset)", "wordmark letters stagger up 0.04s", "curtain wipes upward revealing hero"],
+    "showOncePerSession": true
+  },
+  "header": {
+    "initial": "transparent over hero, white text",
+    "onScroll": { "threshold": 60, "state": "glass: backdrop-blur 14px, surface 70% opacity, 1px bottom border, height 88→68px" },
+    "hideOnScrollDown": true,
+    "revealOnScrollUp": true,
+    "megaMenu": { "enter": "clip-path inset(0 0 100% 0) → inset(0), items stagger 0.03s y:8→0", "exit": "fade 0.15s" },
+    "ctaButton": "magnetic hover (max 8px pull) + gradient border sweep"
+  },
+  "hero": {
+    "background": {
+      "type": "three-particle-network",
+      "library": "@react-three/fiber",
+      "nodes": { "desktop": 180, "mobile": 60 },
+      "linkDistance": 1.4,
+      "colors": ["primary", "accent"],
+      "mouseParallax": 0.15,
+      "scrollDepth": "camera dollies back 20% as hero scrolls out",
+      "fallback": "static gradient + CSS noise when WebGL unavailable or reduced motion"
+    },
+    "slideTransition": {
+      "media": "clip-path circle reveal from cursor/centre + scale 1.12→1 over 1.4s",
+      "eyebrow": "fade + letter-spacing 0.4em→0.18em",
+      "title": "split into words, each masked, y:110%→0 stagger 0.06s",
+      "subtitle": "fade up 0.3s after title",
+      "cta": "scale 0.9→1 + opacity",
+      "accentWord": "gradient text sweep (primary→accent) looping every 4s"
+    },
+    "pagination": "vertical progress bars on right edge, fill = autoplay progress",
+    "scrollCue": "animated mouse icon, dot bounces 1.6s loop"
+  },
+  "sections": {
+    "commitment": { "trigger": "top 80%", "effect": "two columns slide in from opposite sides, icons draw-in", "stagger": 0.15 },
+    "stats": { "trigger": "top 85%", "effect": "count-up numbers over 1.8s outExpo, underline grows" },
+    "solutionsCarousel": {
+      "library": "embla-carousel",
+      "cardHover": "3D tilt (max 8deg), image zoom 1.08, glow border, icon lifts 4px",
+      "entry": "cards stagger in y:40→0, opacity",
+      "drag": "momentum with rubber-band edges"
+    },
+    "solutionsGridPage": { "effect": "sticky left title, cards pin-scroll horizontally on desktop (GSAP ScrollTrigger pin)" },
+    "partners": { "effect": "infinite marquee 40s, pause on hover, logos grayscale→colour on hover, edge fade masks" },
+    "customers": { "effect": "marquee reverse direction 50s" },
+    "projects": {
+      "filter": "sector chips with shared-layout underline (Framer Motion layoutId)",
+      "grid": "AnimatePresence + layout reflow on filter",
+      "cardHover": "image reveal via clip-path, metrics slide up"
+    },
+    "timeline": { "effect": "SVG line draws with scroll progress; milestone dots pop at intersection" },
+    "contact": { "effect": "form fields float-label; submit button morphs to spinner → check" },
+    "footer": { "effect": "large wordmark parallax at 0.3 speed, links underline slide" }
+  },
+  "micro": {
+    "buttons": "hover: background slide from left 0.3s; press: scale 0.97",
+    "links": "underline scaleX 0→1 from left",
+    "cursor": { "enabled": true, "desktopOnly": true, "style": "small dot + trailing ring that grows over interactive elements" },
+    "imageLoad": "blur-up placeholder → sharp, 0.4s"
+  },
+  "performanceBudget": {
+    "lcpMs": 2500,
+    "cls": 0.05,
+    "jsKbGzipInitial": 180,
+    "threeLazyLoad": "dynamic import after first paint; skip entirely below 768px if device memory < 4 GB"
+  }
+}

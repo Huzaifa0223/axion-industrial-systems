@@ -1,0 +1,36 @@
+{
+  "about": {
+    "title": "About Us",
+    "intro": "Axion is an engineering firm that distributes and integrates industrial automation technology from leading international brands.",
+    "body": [
+      "We design, supply, commission and support control systems for water, power, marine and manufacturing clients.",
+      "Our engineers work from concept to handover — and stay on for the maintenance that keeps plants running."
+    ],
+    "image": "/about/team.jpg",
+    "timeline": [
+      { "year": 2000, "title": "Founded", "text": "Started as a small controls distributor." },
+      { "year": 2010, "title": "System integration", "text": "Launched a dedicated integration division." },
+      { "year": 2018, "title": "Robotics certification", "text": "Became a certified robotics integrator." },
+      { "year": 2024, "title": "IIoT platform", "text": "Rolled out our plant-monitoring platform." }
+    ]
+  },
+  "firmware": {
+    "title": "Our Firmware",
+    "subtitle": "The principles our engineering runs on.",
+    "values": [
+      { "icon": "target", "title": "Precision", "text": "Every design decision is documented and defensible." },
+      { "icon": "shield", "title": "Safety first", "text": "Functional safety is designed in, not added later." },
+      { "icon": "handshake", "title": "Partnership", "text": "We measure success by our clients' uptime." },
+      { "icon": "refresh-cw", "title": "Continuous improvement", "text": "We upgrade what exists before replacing it." }
+    ]
+  },
+  "structure": {
+    "title": "Business Structure",
+    "divisions": [
+      { "name": "Distribution", "text": "Product supply, stock and technical sales." },
+      { "name": "System Integration", "text": "Design, programming and commissioning." },
+      { "name": "Field Services", "text": "Maintenance contracts and troubleshooting." },
+      { "name": "Digital Solutions", "text": "IIoT, EMS and analytics." }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sectors": [
+    { "id": "water", "label": "Water & Wastewater", "icon": "droplets", "image": "/projects/sector-water.jpg" },
+    { "id": "power", "label": "Power Generation", "icon": "zap", "image": "/projects/sector-power.jpg" },
+    { "id": "marine", "label": "Marine & Utilities", "icon": "anchor", "image": "/projects/sector-marine.jpg" },
+    { "id": "industrial", "label": "Industrial Sectors", "icon": "factory", "image": "/projects/sector-industrial.jpg" }
+  ],
+  "items": [
+    {
+      "slug": "pump-station-scada-upgrade",
+      "title": "Pump Station SCADA Upgrade",
+      "sector": "water",
+      "client": "Municipal Water Utility (demo)",
+      "year": 2024,
+      "location": "Demo City",
+      "cover": "/projects/pump-station.jpg",
+      "gallery": ["/projects/pump-station-1.jpg", "/projects/pump-station-2.jpg"],
+      "challenge": "Legacy RTUs with no remote visibility across 14 pump stations.",
+      "solution": "Replaced RTUs with modern PLCs, added 4G telemetry and a central SCADA with alarm management.",
+      "results": [{ "metric": "Call-outs", "value": "−40%" }, { "metric": "Stations monitored", "value": "14" }],
+      "solutions": ["industrial-automation", "industrial-iiot"]
+    },
+    {
+      "slug": "turbine-hall-drives-retrofit",
+      "title": "Turbine Hall Drives Retrofit",
+      "sector": "power",
+      "client": "Independent Power Producer (demo)",
+      "year": 2023,
+      "location": "Demo City",
+      "cover": "/projects/turbine.jpg",
+      "gallery": [],
+      "challenge": "Obsolete drives on cooling-water pumps causing unplanned trips.",
+      "solution": "Staged VFD retrofit during planned outages with new motor protection.",
+      "results": [{ "metric": "Pump energy", "value": "−18%" }],
+      "solutions": ["motion-drives", "energy-management"]
+    },
+    {
+      "slug": "port-crane-monitoring",
+      "title": "Port Crane Condition Monitoring",
+      "sector": "marine",
+      "client": "Port Operator (demo)",
+      "year": 2024,
+      "location": "Demo Port",
+      "cover": "/projects/crane.jpg",
+      "gallery": [],
+      "challenge": "Crane gearbox failures discovered only after breakdown.",
+      "solution": "Vibration and temperature sensing with IIoT dashboards and predictive alerts.",
+      "results": [{ "metric": "Unplanned downtime", "value": "−35%" }],
+      "solutions": ["industrial-iiot"]
+    },
+    {
+      "slug": "bottling-line-vision",
+      "title": "Bottling Line Vision Inspection",
+      "sector": "industrial",
+      "client": "Beverage Manufacturer (demo)",
+      "year": 2025,
+      "location": "Demo City",
+      "cover": "/projects/bottling.jpg",
+      "gallery": [],
+      "challenge": "Manual cap and label inspection at 30,000 bottles per hour.",
+      "solution": "Inline smart cameras with automatic rejection and MES reporting.",
+      "results": [{ "metric": "Escapes to customer", "value": "~0" }],
+      "solutions": ["smart-vision"]
+    }
+  ],
+  "note": "All projects are demo placeholders. Results figures are illustrative only."
+}

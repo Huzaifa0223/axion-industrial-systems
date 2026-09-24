@@ -1,0 +1,43 @@
+{
+  "$schema": "./_schemas/site.schema.json",
+  "brand": {
+    "name": "Axion",
+    "legalName": "Axion Industrial Systems",
+    "tagline": "Engineering Specialists",
+    "logo": { "light": "/brand/logo-light.svg", "dark": "/brand/logo-dark.svg", "mark": "/brand/mark.svg" },
+    "favicon": "/brand/favicon.svg"
+  },
+  "seo": {
+    "titleTemplate": "%s | Axion Industrial Systems",
+    "defaultTitle": "Axion | Smart Industrial Automation & Integration",
+    "description": "Official distributor and system integrator for industrial automation, robotics, IIoT, energy management and machine vision.",
+    "ogImage": "/og/default.jpg",
+    "locale": "en_US",
+    "alternateLocales": ["ar_SA"]
+  },
+  "contact": {
+    "address": "Demo Street 12, Industrial District, City 00000",
+    "phone": "+000 00 000 0000",
+    "email": "info@axion-demo.com",
+    "hours": "Sun–Thu, 08:00–17:00",
+    "mapEmbed": null,
+    "coordinates": { "lat": 21.5433, "lng": 39.1728 }
+  },
+  "social": [
+    { "platform": "linkedin", "url": "#" },
+    { "platform": "x", "url": "#" },
+    { "platform": "youtube", "url": "#" }
+  ],
+  "cta": { "label": "Enquire Now", "href": "/contact" },
+  "footer": {
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Solutions", "href": "/solutions" },
+      { "label": "Projects", "href": "/projects" },
+      { "label": "Careers", "href": "/careers" },
+      { "label": "Contact Us", "href": "/contact" }
+    ],
+    "newsletter": { "title": "Our Newsletter", "subtitle": "Automation insights, product launches and case studies. Monthly, no spam.", "formId": "newsletter" },
+    "copyright": "© {year} Axion Industrial Systems. Demo project — not affiliated with any real company."
+  }
+}

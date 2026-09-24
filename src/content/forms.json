@@ -1,0 +1,37 @@
+{
+  "enquiry": {
+    "title": "Enquire Now",
+    "submitLabel": "Send Enquiry",
+    "successMessage": "Thanks — an engineer will reply within one working day.",
+    "endpoint": "/api/enquiry",
+    "fields": [
+      { "name": "fullName", "label": "Full name", "type": "text", "required": true, "maxLength": 100 },
+      { "name": "company", "label": "Company", "type": "text", "required": true, "maxLength": 120 },
+      { "name": "email", "label": "Work email", "type": "email", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": false },
+      { "name": "interest", "label": "Area of interest", "type": "select", "required": true, "optionsFrom": "solutions.json#items[].title" },
+      { "name": "message", "label": "Project details", "type": "textarea", "required": true, "minLength": 20, "maxLength": 2000 },
+      { "name": "consent", "label": "I agree to be contacted about this enquiry.", "type": "checkbox", "required": true }
+    ],
+    "spamProtection": { "honeypotField": "website", "rateLimitPerIpPerHour": 5 }
+  },
+  "newsletter": {
+    "submitLabel": "Subscribe",
+    "successMessage": "You're subscribed.",
+    "endpoint": "/api/newsletter",
+    "fields": [{ "name": "email", "label": "Email address", "type": "email", "required": true }],
+    "spamProtection": { "honeypotField": "website", "rateLimitPerIpPerHour": 3 }
+  },
+  "career-application": {
+    "submitLabel": "Apply",
+    "successMessage": "Application received.",
+    "endpoint": "/api/apply",
+    "fields": [
+      { "name": "fullName", "label": "Full name", "type": "text", "required": true },
+      { "name": "email", "label": "Email", "type": "email", "required": true },
+      { "name": "position", "label": "Position", "type": "select", "required": true, "optionsFrom": "careers.json#openings[].title" },
+      { "name": "cv", "label": "CV (PDF, max 5 MB)", "type": "file", "accept": "application/pdf", "maxSizeMb": 5, "required": true },
+      { "name": "coverNote", "label": "Cover note", "type": "textarea", "required": false, "maxLength": 1500 }
+    ]
+  }
+}

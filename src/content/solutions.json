@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "slug": "maintenance-contracts",
+      "title": "Annual Maintenance Contracts",
+      "icon": "wrench",
+      "image": "/solutions/maintenance.jpg",
+      "summary": "Stop paying for surprise breakdowns. Planned maintenance for your control systems by experienced engineers, with guaranteed response times.",
+      "body": [
+        "Unplanned downtime costs far more than prevention. Our contracts schedule inspections, firmware updates, backups and spare-part checks across your PLCs, drives and HMIs.",
+        "Each contract includes a named engineer, a response-time SLA and a quarterly health report."
+      ],
+      "features": ["Preventive inspection schedule", "Firmware & backup management", "Priority call-out SLA", "Quarterly health reports"],
+      "industries": ["water", "power", "industrial"]
+    },
+    {
+      "slug": "site-troubleshooting",
+      "title": "Site Troubleshooting Services",
+      "icon": "hard-hat",
+      "image": "/solutions/troubleshooting.jpg",
+      "summary": "Control system misbehaving? Our field team diagnoses and fixes faults on site so production gets back on track fast.",
+      "body": [
+        "We send certified engineers with diagnostic tooling for multi-vendor PLC, SCADA, drive and network faults.",
+        "Every visit ends with a root-cause report and recommendations to stop the fault coming back."
+      ],
+      "features": ["Multi-vendor diagnostics", "Emergency call-out", "Root-cause reports", "Remote support option"],
+      "industries": ["water", "power", "marine", "industrial"]
+    },
+    {
+      "slug": "industrial-iiot",
+      "title": "Industrial IIoT",
+      "icon": "network",
+      "image": "/solutions/iiot.jpg",
+      "summary": "An IIoT platform that lets you watch your whole plant in real time — from performance and quality to equipment health.",
+      "body": [
+        "Connect legacy and modern equipment through edge gateways and standard protocols (OPC UA, MQTT, Modbus).",
+        "Dashboards, alarms and analytics turn raw machine data into OEE, downtime and quality insights."
+      ],
+      "features": ["Real-time plant dashboards", "OEE & downtime analytics", "Predictive maintenance alerts", "Cloud or on-premise"],
+      "industries": ["industrial", "power"]
+    },
+    {
+      "slug": "industrial-automation",
+      "title": "Industrial Automation",
+      "icon": "factory",
+      "image": "/solutions/automation.jpg",
+      "summary": "Bespoke factory and process automation for machines and production lines — built for today and ready for tomorrow.",
+      "body": [
+        "From control philosophy and panel design to PLC/HMI programming, commissioning and training.",
+        "We integrate new lines and modernise legacy control systems with minimal disruption."
+      ],
+      "features": ["PLC / DCS / SCADA", "Panel design & build", "Legacy migration", "FAT / SAT commissioning"],
+      "industries": ["industrial", "water"]
+    },
+    {
+      "slug": "energy-management",
+      "title": "Energy Management Systems (EMS)",
+      "icon": "zap",
+      "image": "/solutions/ems.jpg",
+      "summary": "Measure, understand and cut energy use and cost with sustainable, standards-based EMS solutions.",
+      "body": [
+        "Smart metering, power-quality monitoring and consumption analytics down to the machine level.",
+        "Supports ISO 50001-style energy management programmes."
+      ],
+      "features": ["Smart metering", "Power-quality monitoring", "Cost allocation", "Sustainability reporting"],
+      "industries": ["industrial", "power"]
+    },
+    {
+      "slug": "smart-vision",
+      "title": "Smart Vision Systems",
+      "icon": "eye",
+      "image": "/solutions/vision.jpg",
+      "summary": "Fully automated visual inspection for any product — faster, cheaper and more consistent quality control.",
+      "body": [
+        "Camera, lighting and software selection tuned to your defect types and line speed.",
+        "Integrates with rejection mechanisms and your MES for full traceability."
+      ],
+      "features": ["Defect detection", "Code reading & OCR", "Dimensional gauging", "MES integration"],
+      "industries": ["industrial"]
+    },
+    {
+      "slug": "motion-drives",
+      "title": "Motion and Drives",
+      "icon": "gauge",
+      "image": "/solutions/motion.jpg",
+      "summary": "A complete line of motion products and precise drive solutions for demanding manufacturing.",
+      "body": [
+        "Servo, stepper and VFD solutions sized and tuned to your mechanical load.",
+        "Multi-axis coordination and energy-efficient drive retrofits."
+      ],
+      "features": ["Servo systems", "Variable frequency drives", "Multi-axis motion control", "Drive retrofits"],
+      "industries": ["industrial", "water", "marine"]
+    },
+    {
+      "slug": "pharma-auditing",
+      "title": "Pharmaceutical Auditing",
+      "icon": "file-check",
+      "image": "/solutions/pharma.jpg",
+      "summary": "Audit trails, unique user accounts and e-signatures that support FDA 21 CFR Part 11 compliance.",
+      "body": [
+        "We configure control systems with role-based access, secure audit trails and electronic records.",
+        "Validation documentation support for regulated manufacturing."
+      ],
+      "features": ["Audit trails", "Role-based access", "Electronic signatures", "Validation support"],
+      "industries": ["industrial"]
+    },
+    {
+      "slug": "robotics",
+      "title": "Robotics",
+      "icon": "bot",
+      "image": "/solutions/robotics.jpg",
+      "summary": "Reliable robotic cells with a sensible investment level and a calculated ROI.",
+      "body": [
+        "Pick-and-place, palletising, welding and machine tending cells, including collaborative robots.",
+        "Simulation before build so you see cycle time and ROI up front."
+      ],
+      "features": ["Palletising & packing", "Machine tending", "Cobots", "Cell simulation"],
+      "industries": ["industrial"]
+    }
+  ]
+}

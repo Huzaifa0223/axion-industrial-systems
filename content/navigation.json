@@ -1,0 +1,56 @@
+{
+  "primary": [
+    { "label": "Home", "href": "/" },
+    {
+      "label": "Our Values",
+      "type": "dropdown",
+      "items": [
+        { "label": "About Us", "href": "/about", "description": "Who we are and how we work" },
+        { "label": "Our Firmware", "href": "/about/firmware", "description": "Engineering principles and standards" },
+        { "label": "Business Structure", "href": "/about/structure", "description": "Divisions, teams and coverage" }
+      ]
+    },
+    {
+      "label": "Products",
+      "type": "mega",
+      "source": "products.json",
+      "items": [
+        { "label": "Automation Systems", "href": "/products/automation-systems", "icon": "cpu" },
+        { "label": "Motion & Drives", "href": "/products/motion-drives", "icon": "gauge" },
+        { "label": "Robotics", "href": "/products/robotics", "icon": "bot" },
+        { "label": "Safety", "href": "/products/safety", "icon": "shield-check" },
+        { "label": "Sensing", "href": "/products/sensing", "icon": "radar" },
+        { "label": "Quality Control & Inspection", "href": "/products/quality-inspection", "icon": "scan-eye" },
+        { "label": "Control Components", "href": "/products/control-components", "icon": "sliders-horizontal" },
+        { "label": "Switching Components", "href": "/products/switching-components", "icon": "toggle-right" }
+      ]
+    },
+    {
+      "label": "Solutions & Services",
+      "type": "mega",
+      "source": "solutions.json",
+      "items": [
+        { "label": "Industrial IIoT", "href": "/solutions/industrial-iiot", "icon": "network" },
+        { "label": "Industrial Automation", "href": "/solutions/industrial-automation", "icon": "factory" },
+        { "label": "Energy Management Systems (EMS)", "href": "/solutions/energy-management", "icon": "zap" },
+        { "label": "Smart Vision Systems", "href": "/solutions/smart-vision", "icon": "eye" },
+        { "label": "Motion and Drives", "href": "/solutions/motion-drives", "icon": "gauge" },
+        { "label": "Pharmaceutical Auditing", "href": "/solutions/pharma-auditing", "icon": "file-check" },
+        { "label": "Annual Maintenance Contracts", "href": "/solutions/maintenance-contracts", "icon": "wrench" },
+        { "label": "Site Troubleshooting Services", "href": "/solutions/site-troubleshooting", "icon": "hard-hat" }
+      ]
+    },
+    {
+      "label": "Projects",
+      "type": "dropdown",
+      "items": [
+        { "label": "Water & Wastewater", "href": "/projects?sector=water" },
+        { "label": "Power Generation", "href": "/projects?sector=power" },
+        { "label": "Marine & Utilities", "href": "/projects?sector=marine" },
+        { "label": "Industrial Sectors", "href": "/projects?sector=industrial" }
+      ]
+    },
+    { "label": "Careers", "href": "/careers" }
+  ],
+  "cta": { "label": "Enquire Now", "href": "/contact", "variant": "primary" }
+}

@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "variant": "particle-network",
+    "autoplayMs": 6500,
+    "pauseOnHover": true,
+    "slides": [
+      {
+        "id": "partners",
+        "eyebrow": "Axion Engineering Specialists",
+        "title": "The Leading Partner for Smart Industrial Solutions",
+        "subtitle": "Official distributor and system integrator for leading international automation brands.",
+        "cta": { "label": "Learn More", "href": "/about" },
+        "media": { "type": "image", "src": "/hero/slide-1.jpg", "alt": "Hand touching a glowing network of data points" },
+        "accentWord": "Smart"
+      },
+      {
+        "id": "factory-floor",
+        "eyebrow": "Factory Automation",
+        "title": "Factory Floor Automation Solutions",
+        "subtitle": "Production process automation using the latest industrial technology integration.",
+        "cta": { "label": "Explore Automation", "href": "/solutions/industrial-automation" },
+        "media": { "type": "video", "src": "/hero/slide-2.mp4", "poster": "/hero/slide-2.jpg", "alt": "Automated production line" },
+        "accentWord": "Automation"
+      },
+      {
+        "id": "robotics",
+        "eyebrow": "Certified Integrator",
+        "title": "Certified Industrial Robotics Integrator",
+        "subtitle": "Lower costs. Higher productivity. Greater flexibility and precision.",
+        "cta": { "label": "See Robotics", "href": "/solutions/robotics" },
+        "media": { "type": "image", "src": "/hero/slide-3.jpg", "alt": "Robotic arm on assembly line" },
+        "accentWord": "Robotics"
+      },
+      {
+        "id": "iiot",
+        "eyebrow": "Industrial IoT",
+        "title": "IIoT Platform for Smart Automation",
+        "subtitle": "Real-time monitoring. Modular and expandable. Analytics for informed decisions.",
+        "cta": { "label": "Discover IIoT", "href": "/solutions/industrial-iiot" },
+        "media": { "type": "image", "src": "/hero/slide-4.jpg", "alt": "Plant dashboard with live metrics" },
+        "accentWord": "IIoT"
+      },
+      {
+        "id": "ems",
+        "eyebrow": "Energy Management",
+        "title": "Energy Management Systems Integration",
+        "subtitle": "Sustainable solutions and services to optimise factory energy consumption.",
+        "cta": { "label": "Optimise Energy", "href": "/solutions/energy-management" },
+        "media": { "type": "image", "src": "/hero/slide-5.jpg", "alt": "Energy meters and control panel" },
+        "accentWord": "Energy"
+      }
+    ]
+  },
+  "commitment": {
+    "title": "Axion is committed to",
+    "points": [
+      {
+        "icon": "trending-up",
+        "text": "Delivering every benefit that strengthens your technological infrastructure — improving Overall Equipment Effectiveness, operational culture, efficiency, security, confidentiality and trade advantage."
+      },
+      {
+        "icon": "layers",
+        "text": "Building on the infrastructure you already have and upgrading it to the latest technology level, with a sensible investment and a calculated ROI."
+      }
+    ]
+  },
+  "stats": {
+    "enabled": true,
+    "items": [
+      { "value": 25, "suffix": "+", "label": "Years of engineering" },
+      { "value": 400, "suffix": "+", "label": "Projects delivered" },
+      { "value": 30, "suffix": "+", "label": "Global brand partners" },
+      { "value": 24, "suffix": "/7", "label": "Site support" }
+    ],
+    "note": "Demo numbers — replace with real, verifiable figures before going live."
+  },
+  "solutionsCarousel": {
+    "title": "Our Solutions",
+    "source": "solutions.json",
+    "excerptChars": 180,
+    "loop": true,
+    "autoplayMs": 4000,
+    "slidesPerView": { "mobile": 1, "tablet": 2, "desktop": 4 }
+  },
+  "partners": { "title": "Our Partners", "source": "partners.json", "variant": "marquee" },
+  "customers": {
+    "title": "Our Customers",
+    "subtitle": "We tailor our solutions and systems to each customer's unique operations.",
+    "source": "customers.json",
+    "variant": "marquee-reverse"
+  },
+  "contactBand": { "title": "Contact Us", "showMap": true, "formId": "enquiry" }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Careers",
+  "intro": "Join engineers who commission real plants, not slide decks.",
+  "benefits": [
+    { "icon": "graduation-cap", "title": "Vendor certifications", "text": "Paid training on the platforms we integrate." },
+    { "icon": "map", "title": "Field experience", "text": "Work on live sites across multiple sectors." },
+    { "icon": "users", "title": "Mentorship", "text": "Every new engineer is paired with a senior lead." }
+  ],
+  "openings": [
+    {
+      "id": "ctrl-eng-01",
+      "title": "Controls Engineer (PLC/SCADA)",
+      "department": "System Integration",
+      "location": "On-site",
+      "type": "Full-time",
+      "experience": "3+ years",
+      "summary": "Design, program and commission PLC/SCADA systems for water and industrial clients.",
+      "requirements": ["PLC programming (IEC 61131-3)", "SCADA/HMI development", "Commissioning experience"]
+    },
+    {
+      "id": "field-tech-02",
+      "title": "Field Service Technician",
+      "department": "Field Services",
+      "location": "Travel",
+      "type": "Full-time",
+      "experience": "2+ years",
+      "summary": "Carry out preventive maintenance and fault-finding on customer sites.",
+      "requirements": ["Electrical fault-finding", "Drives & motor control", "Valid driving licence"]
+    }
+  ],
+  "applyFormId": "career-application"
+}
