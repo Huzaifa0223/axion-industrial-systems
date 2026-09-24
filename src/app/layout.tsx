@@ -28,6 +28,7 @@ const jetbrainsMono = JetBrains_Mono({
 export function generateMetadata(): Metadata {
   const site = getSite();
   return {
+    metadataBase: new URL("https://axion-demo.com"),
     title: {
       template: site.seo.titleTemplate,
       default: site.seo.defaultTitle,
