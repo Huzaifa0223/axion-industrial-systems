@@ -5,6 +5,7 @@ import Image from "next/image";
 import { HeroSlide } from "@/lib/schemas/home";
 import { SlideText } from "./SlideText";
 import { HeroPagination } from "./HeroPagination";
+import { HeroCanvasWrapper } from "./HeroCanvasWrapper";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface HeroSliderProps {
@@ -121,6 +122,9 @@ export function HeroSlider({
         <div className="absolute inset-0 bg-gradient-to-r from-[#070814]/95 via-[#070814]/80 to-transparent z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#070814] via-transparent to-[#070814]/50 z-10" />
       </div>
+
+      {/* R3F WebGL Particle Network with Reduced Motion Guard */}
+      <HeroCanvasWrapper />
 
       {/* Main Content Area */}
       <div className="relative z-20 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-28 flex items-center justify-between">
